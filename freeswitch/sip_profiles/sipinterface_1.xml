@@ -138,13 +138,13 @@
 
 
             <!-- Session Timers -->
-            <param name="enable-timer" value="false"/>
-            <param name="rtp-timeout-sec" value="3600"/>
-            <param name="rtp-hold-timeout-sec" value="3600"/>
-            <param name="minimum-session-expires" value="60"/>
+            <param name="enable-timer" value="true"/>
+            <param name="rtp-timeout-sec" value="300"/>
+            <param name="rtp-hold-timeout-sec" value="300"/>
+            <param name="minimum-session-expires" value="90"/>
             <!--<param name="sip-force-expires" value="600"/>-->
             <!--<param name="sip-expires-max-deviation" value="120"/>-->
-            <!--<param name="session-timeout" value="120"/>-->
+            <param name="session-timeout" value="1800"/>
             <!--<param name="timer-T1" value="500"/>-->
             <!--<param name="timer-T1X64" value="32000"/>-->
             <!--<param name="timer-T2" value="4000"/>-->
